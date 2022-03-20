@@ -14,29 +14,34 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body style="padding: 5rem">
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-        <svg class="icon icon--primary collapsible__chevron">
-          <use xlink:href="images/sprite.svg#tick"></use>
-        </svg>
+  <body>
+    <section class="block container">
+      <header class="block__header">
+        <h2 class="block__heading">Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
+          quae?
+        </p>
       </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, commodi
+      <div style="width: 30%; padding: 4rem">
+        <div class="card card--secondary">
+          <header class="card__header">Card Title</header>
+          <div class="card__body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+            magni!
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-        <svg class="icon icon--primary collapsible__chevron">
-          <use xlink:href="images/sprite.svg#tick"></use>
-        </svg>
-      </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, commodi
+    </section>
+    <section class="block block--dark block--skewed-left">
+      <div class="container">
+        <h2 class="block__heading">Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus,
+          quae?
+        </p>
       </div>
-    </div>
+    </section>
     <script src="js/main.js"></script>
   </body>
 </html>
